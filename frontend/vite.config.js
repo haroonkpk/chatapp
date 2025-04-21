@@ -6,5 +6,8 @@ import { all } from "axios";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+   build: {
+    outDir: 'public',  // Set output directory to public
+  },
 
 });
