@@ -1,7 +1,7 @@
 import React from "react";
 import { useChatStore } from "../store/useChatStore";
 import UserContainer from "../components/UserContainer";
-import ChatContainer from "../components/chatContainer";
+import ChatContainer from "../components/ChatContainer";
 
 export default function HomePage() {
   const { selectedUser } = useChatStore();
