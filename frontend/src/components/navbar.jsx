@@ -19,7 +19,7 @@ export default function Navbar() {
                 variant="ghost"
                 className=" flex items-center space-x-2 btn"
               >
-                <MessageCircle size={20} /> <span>Messages2</span>
+                <MessageCircle size={20} /> <span>Messages</span>
               </button>
             </Link>
           </div>
